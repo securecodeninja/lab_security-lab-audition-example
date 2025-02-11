@@ -51,7 +51,7 @@ sudo -u pslearner git config --global user.email "pslearner@example.com"
 # Clone sample repository
 echo "Cloning sample repository..."
 cd /home/pslearner/Desktop
-sudo -u pslearner git clone https://github.com/dotnet/AspNetCore.Docs.Samples.git sample-repo
+sudo -u pslearner git clone https://github.com/securecodeninja/lab_security-lab-audition-example.git
 
 
 # Set permissions
