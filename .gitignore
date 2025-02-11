@@ -1,0 +1,68 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Node.js (if using npm packages)
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE-specific files
+.idea/
+*.sln.iml
+.vscode/
+
+# Environment files
+*.env
+appsettings.*.json
+!appsettings.json
+
+# Build and test results
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+
+# Others
+*.cache
+*.log
+*.bak
+Thumbs.db

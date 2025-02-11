@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Search Files";
+}
+
+<h2>Search Files</h2>
+
+<form method="get" asp-action="Search">
+    <div class="form-group">
+        <input type="text" class="form-control" id="fileName" name="fileName" placeholder="Enter search term">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+    <br>
+    <br>
+
+@if (ViewBag.Output != null)
+{
+    <h3>Search Results:</h3>
+        <br>
+
+    <pre>@ViewBag.Output</pre>
+}
